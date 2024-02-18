@@ -72,14 +72,14 @@ a {
     --dev-icons: brightness(0) saturate(100%) invert(1%) sepia(0%) saturate(7497%) hue-rotate(68deg) brightness(97%) contrast(99%);
     --uiux: #02050A;
     --uiux-hover: brightness(0) saturate(100%) invert(100%) sepia(23%) saturate(5408%) hue-rotate(72deg) brightness(95%) contrast(89%);
-    --uiux-text-hover: #55E6A5;
+    --uiux-text-hover: ##5855e6b4;
     --bag: brightness(0) saturate(100%) invert(2%) sepia(4%) saturate(7498%) hue-rotate(139deg) brightness(101%) contrast(99%);
     --background-hover-card: rgba(0, 0, 0, 0.7);
 }
 
 .dark-mode {
     --primary-color: #02050A;
-    --one: #55E6A5;
+    --one: #5855e6b4;
     --one-background: #141C27;
     --card-background: #09101A;
     --card-text: #FFF;
@@ -92,7 +92,7 @@ a {
     --background-blur: linear-gradient(95deg, rgba(2, 5, 10, 0.40) 0%, rgba(2, 5, 10, 0.20) 100%);
     --designer-text: #A2A2A2;
     --dev-icons: brightness(0) saturate(100%) invert(86%) sepia(5%) saturate(4533%) hue-rotate(91deg) brightness(98%) contrast(85%);
-    --uiux: #55E6A5;
+    --uiux: #5855e6b4;
     --uiux-hover: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(275deg) brightness(103%) contrast(103%);
     --uiux-text-hover: #FFF;
     --bag: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(286deg) brightness(101%) contrast(101%);
@@ -169,7 +169,7 @@ body {
     text-transform: uppercase;
     animation: stroke 3s alternate;
     stroke-width: 2;
-    stroke: #55E6A5;
+    stroke: #5855e6b4;
     font-size: 100px;
     font-weight: 600;
 }
@@ -177,7 +177,7 @@ body {
 @keyframes stroke {
     0% {
         fill: rgba(72, 138, 20, 0);
-        stroke: #55E6A5;
+        stroke: #5855e6b4;
         stroke-dashoffset: 25%;
         stroke-dasharray: 0 50%;
         stroke-width: 2;
@@ -185,17 +185,17 @@ body {
 
     70% {
         fill: rgba(72, 138, 20, 0);
-        stroke: #55E6A5;
+        stroke: #5855e6b4;
     }
 
     80% {
         fill: rgba(72, 138, 20, 0);
-        stroke: #55E6A5;
+        stroke: #5855e6b4;
         stroke-width: 3;
     }
 
     100% {
-        fill: #55E6A5;
+        fill: #5855e6b4;
         stroke: rgba(54, 95, 160, 0);
         stroke-dashoffset: -25%;
         stroke-dasharray: 50% 0;
@@ -222,7 +222,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #55e6a598;
+    background: #5855e6b4;
     border-radius: inherit;
     animation: var(--bubble-sway-type) var(--bubble-sway-duration) var(--bubble-sway-delay) ease-in-out alternate infinite;
 }
@@ -479,7 +479,7 @@ body {
     list-style: none;
     width: 20px;
     height: 20px;
-    background: #55E6A5;
+    background: #5855e6b4;
     animation: animate 25s linear infinite;
     bottom: -150px;
 }
@@ -583,7 +583,7 @@ canvas {
 /* Background Slides Animation */
 .bg {
     animation: slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #55e6a5b4 50%, var(--primary-color) 50%);
+    background-image: linear-gradient(-60deg, #5855e6b4 50%, var(--primary-color) 50%);
     bottom: 0;
     left: -50%;
     opacity: .5;
@@ -633,7 +633,7 @@ canvas {
     margin-left: -20px;
     margin-top: -20px;
     border-radius: 50%;
-    border: 2px solid #55E6A5;
+    border: 2px solid #5855e6b4;
     transition: transform 0.3s ease;
     transform-origin: center center;
     pointer-events: none;
@@ -792,7 +792,7 @@ canvas {
 }
 
 .nav_menu_icon_line {
-    border-bottom: 2px solid var(--primary-color);
+    border-bottom: 2px solid #5855e6b4;
 }
 
 .current-tab img {
@@ -804,11 +804,11 @@ canvas {
 }
 
 .current-tab a {
-    color: #55E6A5;
+    color: #5855e6b4;
 }
 
 .icetab:hover ul li a {
-    color: #55E6A5 !important;
+    color: #5855e6b4 !important;
 }
 
 .icetab:hover .icons2 {
@@ -816,7 +816,7 @@ canvas {
 }
 
 .current-tab .sub-menu li a {
-    color: #55E6A5 !important;
+    color: #5855e6b4 !important;
 }
 
 /*-----------------------[ 7.Side Menu CSS ]------------------------*/
@@ -1061,7 +1061,7 @@ section#card_main {
 
 button {
     border: 2px solid transparent;
-    background: #55E6A5;
+    background: #5855e6b4;
     font-family: 'Kodchasan';
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
@@ -1069,7 +1069,7 @@ button {
 
 button:hover {
     background: transparent;
-    border: 2px solid #55E6A5;
+    border: 2px solid #5855e6b4;
     color: var(--button-color-hover);
     border-radius: 0px;
 }
@@ -1131,7 +1131,7 @@ button:hover {
 }
 
 .counter2 {
-    color: #55E6A5;
+    color: #5855e6b4;
     font-size: 48px;
     line-height: 64px;
 }
@@ -1152,7 +1152,7 @@ button:hover {
 
 .education::before {
     content: "";
-    color: #55E6A5;
+    color: #5855e6b4;
     border-left: 2px solid var(--card-text);
     position: absolute;
     top: 0;
@@ -1204,7 +1204,7 @@ button:hover {
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background-color: #55E6A5;
+    background-color: #5855e6b4;
 }
 
 .experience_main_text {
@@ -1248,7 +1248,7 @@ button:hover {
 }
 
 .service_box:hover .services_icon {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(23%) saturate(5408%) hue-rotate(72deg) brightness(95%) contrast(89%);
+    /* filter: brightness(0) saturate(100%) invert(100%) sepia(23%) saturate(5408%) hue-rotate(72deg) brightness(95%) contrast(89%); */
     transition: all 0.5s;
 }
 
@@ -1262,7 +1262,7 @@ button:hover {
 }
 
 .service_box:hover .ui_ux {
-    color: #55E6A5;
+    color: #5855e6b4;
     transition: all 0.5s;
 }
 
@@ -1288,7 +1288,7 @@ button:hover {
 }
 
 .plan_box:hover {
-    border: 2px solid #55E6A5;
+    border: 2px solid #5855e6b4;
     transition: all 0.5s;
 }
 
@@ -1323,7 +1323,7 @@ button:hover .shopping_bag {
 }
 
 .plan_price {
-    color: #55E6A5;
+    color: #5855e6b4;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -1341,7 +1341,7 @@ button:hover .shopping_bag {
 }
 
 .help {
-    color: #55E6A5;
+    color: #5855e6b4;
 }
 
 .plan_box_sub2 {
@@ -1424,7 +1424,7 @@ button:hover .shopping_bag {
 }
 
 .success-stroke {
-    stroke: #55E6A5;
+    stroke: #5855e6b4;
 }
 
 @keyframes circle-chart-fill {
@@ -1465,11 +1465,11 @@ button:hover .shopping_bag {
 }
 
 .hard_skill_group:hover {
-    border: 2px solid #55E6A5;
+    border: 2px solid #5855e6b4;
 }
 
 .hard_skill_counter {
-    color: #55E6A5;
+    color: #5855e6b4;
     text-align: center;
     font-size: 24px;
     line-height: 36px;
@@ -1480,9 +1480,9 @@ button:hover .shopping_bag {
     filter: var(--nav-menu-icon);
 }
 
-.hard_skill_group:hover .figma {
+/* .hard_skill_group:hover .figma {
     filter: brightness(0) saturate(100%) invert(100%) sepia(26%) saturate(5679%) hue-rotate(66deg) brightness(122%) contrast(79%);
-}
+} */
 
 /*-----------------------[ 14.Portfolio Section CSS ]------------------------*/
 .content_main {
@@ -1673,7 +1673,7 @@ button:hover .shopping_bag {
 .prev-arrow:hover {
     width: 48px;
     height: 48px;
-    border: 2px solid #55E6A5;
+    border: 2px solid #5855e6b4;
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
 }
@@ -1688,7 +1688,7 @@ button:hover .shopping_bag {
 .next-arrow:hover {
     width: 48px;
     height: 48px;
-    border: 2px solid #55E6A5;
+    border: 2px solid #5855e6b4;
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
 }
@@ -1870,7 +1870,7 @@ button:hover .shopping_bag {
     transform: translateY(-2.1rem);
     visibility: visible;
     font-size: 16px;
-    color: #55E6A5;
+    color: #5855e6b4;
 }
 
 .form__input {
@@ -1891,7 +1891,7 @@ button:hover .shopping_bag {
 }
 
 .form__input:focus:invalid {
-    border-bottom: 2px solid #55E6A5;
+    border-bottom: 2px solid #5855e6b4;
 }
 
 .form__label {
@@ -1908,7 +1908,7 @@ button:hover .shopping_bag {
 }
 
 .form__btn {
-    background: #55E6A5;
+    background: #5855e6b4;
     border: 2px solid transparent;
     margin-top: 30px;
     border-radius: 20px;
@@ -1925,7 +1925,7 @@ button:hover .shopping_bag {
 
 .form__btn:hover {
     background-color: transparent;
-    border: 2px solid #55E6A5;
+    border: 2px solid #5855e6b4;
     border-radius: 0px;
 }
 
@@ -1953,7 +1953,7 @@ button:hover .shopping_bag {
 }
 
 .contact_number a:hover {
-    color: #55E6A5;
+    color: #5855e6b4;
 }
 
 iframe {
@@ -1976,13 +1976,13 @@ iframe {
 }
 
 .krishna:hover {
-    color: #55E6A5;
+    color: #5855e6b4;
 }
 
 /*-----------------------[ 18.Social Media Icons Right Side CSS ]------------------------*/
 .social_media li::before {
     content: "\2022";
-    color: #55E6A5;
+    color: #5855e6b4;
     font-weight: bolder;
     font-size: 28px;
     display: inline-block;
@@ -2185,7 +2185,7 @@ ul {
 
 .share-btn:hover {
     border-radius: 50%;
-    border: 2px solid #55E6A5;
+    border: 2px solid #5855e6b4;
     text-align: center;
     transition: all 0.5s ease-in-out;
 }
@@ -2368,7 +2368,7 @@ ul {
 }
 
 .line {
-    border-top: 2px solid #55E6A5;
+    border-top: 2px solid #5855e6b4;
     width: 60px;
 }
 
@@ -2494,7 +2494,7 @@ ul {
 }
 
 .warning {
-    border: 2.5px dashed #55E6A5;
+    border: 2.5px dashed #5855e6b4;
 }
 
 @keyframes spin {
@@ -2517,7 +2517,7 @@ ul {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #55E6A5;
+    background-color: #5855e6b4;
     background-clip: content-box;
 }
 

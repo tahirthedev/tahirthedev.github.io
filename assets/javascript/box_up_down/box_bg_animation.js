@@ -10,7 +10,7 @@ const getContext = () => {
         n = window.innerWidth / spacing,
         tSpeedFactor = [.2, .4, .6, .8, 1],
         i;
-    const colors = ['#55E6A5', '#55E6A5', '#55E6A5']
+    const colors = ['#5855e6b4', '#5855e6b4', '#5855e6b4']
 
     for (i = 0; i < n; i++) {
         cubes.push({
