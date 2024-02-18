@@ -725,7 +725,7 @@ canvas {
 }
 
 .sidebar .nav-links li a:hover {
-    filter: brightness(0) saturate(100%) invert(84%) sepia(7%) saturate(2912%) hue-rotate(94deg) brightness(94%) contrast(92%);
+    filter: brightness(0) saturate(100%) invert(35%) sepia(65%) saturate(4844%) hue-rotate(233deg) brightness(94%) contrast(91%);
 }
 
 .sidebar .nav-links li a {
@@ -796,15 +796,11 @@ canvas {
 }
 
 .current-tab img {
-    filter: brightness(0) saturate(100%) invert(84%) sepia(7%) saturate(2912%) hue-rotate(94deg) brightness(94%) contrast(92%) !important;
+    filter: brightness(0) saturate(100%) invert(35%) sepia(65%) saturate(4844%) hue-rotate(233deg) brightness(94%) contrast(91%) !important;
 }
 
 .current-tab a {
-    filter: brightness(0) saturate(100%) invert(84%) sepia(7%) saturate(2912%) hue-rotate(94deg) brightness(94%) contrast(92%) !important;
-}
-
-.current-tab a {
-    color: #5855e6b4;
+    filter: brightness(0) saturate(100%) invert(35%) sepia(65%) saturate(4844%) hue-rotate(233deg) brightness(94%) contrast(91%);
 }
 
 .icetab:hover ul li a {
@@ -812,7 +808,7 @@ canvas {
 }
 
 .icetab:hover .icons2 {
-    filter: brightness(0) saturate(100%) invert(84%) sepia(7%) saturate(2912%) hue-rotate(94deg) brightness(94%) contrast(92%);
+    filter: brightness(0) saturate(100%) invert(35%) sepia(65%) saturate(4844%) hue-rotate(233deg) brightness(94%) contrast(91%);
 }
 
 .current-tab .sub-menu li a {
