@@ -5,9 +5,9 @@ $(document).ready(function () {
     }, 2500);
 });
 
-// olivia moswa text
-document.getElementsByClassName("olivia_moswa")[0];
-// olivia moswa text end
+// tahir moswa text
+document.getElementsByClassName("tahir_moswa")[0];
+// tahir moswa text end
 
 // designer text
 firstText = "Designer";
